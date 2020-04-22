@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-13 09:51:31
- * @LastEditTime: 2020-04-22 20:25:44
+ * @LastEditTime: 2020-04-22 20:34:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \Frontend-01-Template\week02\NOTE.md
@@ -84,7 +84,7 @@ function matchString(text) {
 // 匹配数字
 function isNumber(str) {
   var exp =  /^(\s)*((\+\-|\-\+)*|\+|\-)?((\d+)?(.\d*)?([e|E](\+|\-)?(\d*))?|0x[0-9a-fA-F]+|Infinity|NaN)(\s)*$/ig
-  return str.match(str);
+  return str.match(exp);
 }
 
 // 写一个 UTF-8 Encoding 的函数
